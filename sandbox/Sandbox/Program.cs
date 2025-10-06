@@ -41,17 +41,17 @@ class Program
         culpritCostume.tools = "snorkel and goggles";
 
         Console.WriteLine("Costumes needed for the mystery performance:");
-        Console.WriteLine("\n\t The detective:");
+        Console.WriteLine("\n\t The sleuth (detective):");
         sleuthCostume.Display();
-        Console.WriteLine("\n\t The sidekick:");
+        Console.WriteLine("\n\t The sidekick (cowboy):");
         sidekickCostume.Display();
-        Console.WriteLine("\n\t The victim:");
+        Console.WriteLine("\n\t The victim (bagpiper):");
         victimCostume.Display();
-        Console.WriteLine("\n\t The witness:");
+        Console.WriteLine("\n\t The witness (nurse):");
         witnessCostume.Display();
-        Console.WriteLine("\n\t The innocent suspect:");
+        Console.WriteLine("\n\t The innocent suspect (surfer):");
         innocentSuspectCostume.Display();
-        Console.WriteLine("\n\t The actual culprit:");
+        Console.WriteLine("\n\t The actual culprit (snorkler):");
         culpritCostume.Display();
     }
 }

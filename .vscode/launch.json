@@ -15,6 +15,42 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+        {
+            "name": "Sandbox Dice Distribution",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-sandbox-DiceDistribution",
+            "program": "${workspaceFolder}/sandbox/DiceDistribution/bin/Debug/net8.0/DiceDistribution.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/sandbox/DiceDistribution",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Sandbox Playground",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-sandbox-Playground",
+            "program": "${workspaceFolder}/sandbox/Playground/bin/Debug/net9.0/Playground.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/sandbox/Playground",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Sandbox Test",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-sandbox-Test",
+            "program": "${workspaceFolder}/sandbox/Test/bin/Debug/net9.0/Test.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/sandbox/Test",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
 
         {
             "name": "C# Prep 1",
