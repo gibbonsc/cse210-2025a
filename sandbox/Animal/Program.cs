@@ -1,15 +1,17 @@
-﻿class Program
+﻿namespace Animal;
+
+class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, Polymorphic World!");
-
-        Animal a = new Animal("Beast");
-        Bird bird = new Bird("Blackbird");
-        Fox fox = new Fox("Ylvis");
-
-        a.MakeSound();
-        bird.MakeSound();
-        fox.MakeSound();
+        Console.WriteLine("Hello, Animal World!");
+        Mammal myPet = new Mammal("Ali");
+        myPet.MakeNoise();
+        Mammal myLagomorph = new Rabbit("Shadow");
+        myLagomorph.MakeNoise();
+        Mammal myFeline = new Tiger("Hobbes");
+        myFeline.MakeNoise();
+        Mammal myFox = new Fox("Ylvis");
+        myFox.MakeNoise();
     }
 }

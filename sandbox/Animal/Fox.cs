@@ -1,11 +1,11 @@
-class Fox : Animal
+class Fox: Mammal
 {
     public Fox(string name) : base(name)
     {
-        _sound = "Ring-ding-ding-ding-dingeringeding!";
+        _sound = "Ringa-ding-ding-ding-ringadingading";
     }
-    public override void MakeSound()
+    public override void MakeNoise()
     {
-        Console.WriteLine($"A {this.GetType()} named {GetName()} sings {_sound}");
+        Console.WriteLine($"{_name} sings {_sound}.");
     }
 }
