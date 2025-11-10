@@ -13,7 +13,7 @@
 --
 #_location: string
 --
-+Explore()
++virtual Explore()
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -22,14 +22,14 @@
     <coordinates>
       <x>20</x>
       <y>110</y>
-      <w>120</w>
+      <w>130</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>Predator
 --
 -_satiety: int
 --
-+Explore()
++override Explore()
 </panel_attributes>
     <additional_attributes/>
   </element>
