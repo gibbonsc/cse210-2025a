@@ -2,6 +2,12 @@ class Mammal
 {
     protected string _name;
     protected string _sound = "";
+
+    public override string ToString()
+    {
+        return $"{this.GetType()} named {_name}";
+    }
+
     public Mammal(string name)
     {
         _name = name;
